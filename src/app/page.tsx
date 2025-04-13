@@ -97,7 +97,7 @@ export default function Home() {
                 <div>
                   <h3 className="text-xl font-bold mb-2">Lightweight CRM</h3>
                   <p className="text-gray-400 text-base">
-                    Manage relationships directly over email, phone, sms, or web chat.  Full audit trail of all AI Agent communications.
+                    Manage relationships directly over email, phone, sms, or web chat. Full audit trail of all AI Agent communications.
                   </p>
                 </div>
               </div>
@@ -131,7 +131,7 @@ export default function Home() {
                 <div>
                   <h3 className="text-xl font-bold mb-2">AI Agents</h3>
                   <p className="text-gray-400 text-base">
-                    Assign your tasks to agents. They will call, text, email, search the internet and your database, following your SOP until the job is done.
+                    Assign your tasks to agents. They&apos;ll call, text, email, search the internet and your database, following your SOP until the job is done.
                   </p>
                 </div>
               </div>
@@ -168,7 +168,7 @@ export default function Home() {
                 <h3 className="text-xl font-bold pt-2">Get an Invite Code</h3>
               </div>
               <p className="text-gray-400">
-                Enter a valid invite code and you'll be able to chat with our onboarding agent who will gather the information needed to get you automated.
+                Enter a valid invite code and you&apos;ll be able to chat with our onboarding agent who will gather the information needed to get you automated.
               </p>
             </div>
 
@@ -181,7 +181,7 @@ export default function Home() {
                 <h3 className="text-xl font-bold pt-2">Meet the GR team</h3>
               </div>
               <p className="text-gray-400">
-                Our assistant will schedule your first call with our team to discuss your needs and the scope of reuired integration.
+                Our assistant will schedule your first call with our team to discuss your needs and the scope of required integration.
               </p>
             </div>
 
@@ -194,13 +194,13 @@ export default function Home() {
                 <h3 className="text-xl font-bold pt-2">Get Automated</h3>
               </div>
               <p className="text-gray-400">
-                We will work with your team to ingerate and tailor the platform to your needs. The Gravity Rail team will train your staff on how to manage and continually improve your automations.
+                We will work with your team to integrate and tailor the platform to your needs. The Gravity Rail team will train your staff on how to manage and continually improve your automations.
               </p>
             </div>
           </div>
 
           <div className="mt-12 text-center">
-            You can talk to our agent about custom devlopment work. Fair warning, it will be expensive.
+            You can talk to our agent about custom development work. Fair warning, it&apos;ll be expensive.
           </div>
         </div>
       </section>

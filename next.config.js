@@ -4,7 +4,7 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: '/your-repo-name', // Replace with your actual repository name
+  basePath: process.env.NODE_ENV === 'production' ? '/your-repo-name' : '',
 }
 
 module.exports = nextConfig 
