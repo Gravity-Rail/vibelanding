@@ -194,13 +194,13 @@ export default function Home() {
                 <h3 className="text-xl font-bold pt-2">Get Automated</h3>
               </div>
               <p className="text-gray-400">
-                We will work with your team to ingerate and tailor the platform to your needs.  The Gravity Rail team will train your staff on how to manage and continually improve your automations.
+                We will work with your team to ingerate and tailor the platform to your needs. The Gravity Rail team will train your staff on how to manage and continually improve your automations.
               </p>
             </div>
           </div>
 
           <div className="mt-12 text-center">
-            You can talk to our agent about custom devlopment work.  Fair warning, it will be expensive.
+            You can talk to our agent about custom devlopment work. Fair warning, it will be expensive.
           </div>
         </div>
       </section>
