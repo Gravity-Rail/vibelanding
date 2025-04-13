@@ -7,7 +7,7 @@ export default function Home() {
       {/* Navigation */}
       <nav className="fixed w-full px-5 py-6 flex justify-between items-center bg-black/90 backdrop-blur-md z-50">
         <Image 
-          src="/images/gravityrail-logo-150x150.jpg"
+          src="/vibelanding/images/gravityrail-logo-150x150.jpg"
           alt="Gravity Rail"
           width={120}
           height={40}
@@ -64,7 +64,7 @@ export default function Home() {
             <div className="lg:w-1/2">
               <div className="h-56 w-full sm:h-72 md:h-96 lg:h-[400px] flex items-center justify-center">
                 <Image
-                  src="/images/grfireworks-1-2048x1955.png"
+                  src="/vibelanding/images/grfireworks-1-2048x1955.png"
                   alt="Decorative fireworks"
                   width={2048}
                   height={1955}
@@ -140,7 +140,7 @@ export default function Home() {
             {/* Right side - Image placeholder */}
             <div className="hidden lg:block relative">
               <Image
-                src="/images/basic_flow.png"
+                src="/vibelanding/images/basic_flow.png"
                 alt="VIP Guest Concierge Flow Diagram"
                 width={800}
                 height={600}
