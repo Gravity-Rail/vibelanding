@@ -1,30 +1,47 @@
 import Image from 'next/image'
 import Link from 'next/link'
+import { getImagePath } from '@/utils/getImagePath'
 
 export default function Home() {
   return (
     <main className="min-h-screen bg-black text-white">
       {/* Navigation */}
-      <nav className="fixed w-full px-5 py-6 flex justify-between items-center bg-black/90 backdrop-blur-md z-50">
-        <Image 
-          src="/vibelanding/images/gravityrail-logo-150x150.jpg"
-          alt="Gravity Rail"
-          width={120}
-          height={40}
-          className="h-10 w-auto"
-          priority
-        />
-        <div className="hidden md:flex gap-8">
-          <Link href="#platform" className="text-white/80 hover:text-white transition">
-            Platform
-          </Link>
-          <Link href="#services" className="text-white/80 hover:text-white transition">
-            Services
-          </Link>
-          <Link href="#contact" className="text-white/80 hover:text-white transition">
-            Contact
-          </Link>
+      <nav className="fixed w-full px-5 py-4 flex justify-between items-center bg-black/90 backdrop-blur-md z-50 border-b border-white/10">
+        <div className="flex items-center gap-8">
+          <Image 
+            src={getImagePath('images/gravityrail-logo-150x150.jpg')}
+            alt="Gravity Rail"
+            width={120}
+            height={40}
+            className="h-10 w-auto"
+            priority
+          />
+          <div className="hidden md:flex gap-8">
+            <a 
+              href="#how-it-works" 
+              className="text-white/80 hover:text-white transition-colors duration-200 text-sm font-medium"
+            >
+              How It Works
+            </a>
+            <a 
+              href="#features" 
+              className="text-white/80 hover:text-white transition-colors duration-200 text-sm font-medium"
+            >
+              Features
+            </a>
+            <a 
+              href="#get-started" 
+              className="text-white/80 hover:text-white transition-colors duration-200 text-sm font-medium"
+            >
+              Get Started
+            </a>
+          </div>
         </div>
+        <button 
+          className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition transform hover:-translate-y-0.5"
+        >
+          Request Access
+        </button>
       </nav>
 
       {/* Hero Section */}
@@ -64,7 +81,7 @@ export default function Home() {
             <div className="lg:w-1/2">
               <div className="h-56 w-full sm:h-72 md:h-96 lg:h-[400px] flex items-center justify-center">
                 <Image
-                  src="/vibelanding/images/grfireworks-1-2048x1955.png"
+                  src={getImagePath('images/grfireworks-1-2048x1955.png')}
                   alt="Decorative fireworks"
                   width={2048}
                   height={1955}
@@ -78,7 +95,7 @@ export default function Home() {
       </section>
 
       {/* How It Works Section */}
-      <section className="py-20 px-8 bg-gradient-to-b from-gray-900 to-black">
+      <section id="how-it-works" className="scroll-mt-20 py-20 px-8 bg-gradient-to-b from-gray-900 to-black">
         <div className="max-w-7xl mx-auto">
           <div className="text-blue-500 text-sm mb-2">How Gravity Rail Works</div>
           <h2 className="text-3xl md:text-4xl font-bold mb-16">Build tasks for agents to complete</h2>
@@ -140,7 +157,7 @@ export default function Home() {
             {/* Right side - Image placeholder */}
             <div className="hidden lg:block relative">
               <Image
-                src="/vibelanding/images/basic_flow.png"
+                src={getImagePath('images/basic_flow.png')}
                 alt="VIP Guest Concierge Flow Diagram"
                 width={800}
                 height={600}
@@ -153,7 +170,7 @@ export default function Home() {
       </section>
 
       {/* Get Started Section */}
-      <section className="py-20 px-8 bg-black">
+      <section id="get-started" className="scroll-mt-20 py-20 px-8 bg-gradient-to-b from-black to-gray-900">
         <div className="max-w-7xl mx-auto">
           <div className="text-blue-500 text-sm mb-2">How We Work</div>
           <h2 className="text-3xl md:text-4xl font-bold mb-16">Our goal is to get you automated</h2>
