@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import Link from 'next/link'
 import { getImagePath } from '@/utils/getImagePath'
 
 export default function Home() {
